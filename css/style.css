@@ -1,0 +1,151 @@
+body{
+    background: #f4f2ec url("../imagens/fundo.png") repeat-x;
+    font: 12px "Lucinda Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 0;
+    height: 55px;
+    
+}
+
+#logo h1{
+    float: left;
+} 
+
+#logo a{
+    background: url("../imagens/logo.png") no-repeat;
+    display: block;
+    width: 248px;   
+    height: 21px;
+    text-indent: -4000px;
+}
+
+#lista-nav{
+    list-style-type: none;
+    float: right;
+}
+
+#lista-nav li {
+    float: left;
+}
+
+#lista-nav li a{
+    padding: 10px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+a:link, a:visited, a:active{
+    color: #af670a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+}
+
+main{
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+#coluna-principal{
+    width: 325px;
+    float: left;
+}
+
+#coluna-secundaria{
+    width: 325px;
+    float: left;
+    
+}
+
+
+.colunas h3{
+    color: green;
+    text-transform: uppercase;
+}
+
+.colunas{
+    padding: 5px 15PX;
+    
+}
+
+#exposicoes ul li a:hover{
+    color: #000;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+aside h3{
+    padding: 15px;
+    text-transform: uppercase;
+    color: #af670a;
+}
+
+label{
+    margin-left: 20px;
+}
+input[type=number]{
+    width: 35px;
+}
+
+input[type=submit]{
+    background-color: #af670a;
+    color: #fff;
+    width: 80%;
+    margin: 10px 10px 15px 35px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#visita{
+    background-color: #cdc8b1;
+}
+
+#galeria-fotos{
+    background-color: bisque;
+    padding-bottom: 30px;
+}
+
+
+section#fotos a{
+    display: block;
+    background-image: url("../imagens/fundo-foto.png");
+    float: left;
+    padding: 17px 15px;
+    margin: 10px 0px 0px 20px;
+}
+
+section#fotos img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#fotos{
+    padding-bottom: 27px;
+}
+
+footer{
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url("../imagens/fundo-rodape.png") no-repeat center top;
+}
+
+footer>p a{
+    padding: 2px 10px;
+}
